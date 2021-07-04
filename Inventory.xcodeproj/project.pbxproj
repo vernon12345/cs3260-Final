@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE319083268E237C009C8C9A /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE319082268E237C009C8C9A /* EditViewController.swift */; };
+		BE319088268E24FB009C8C9A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE319087268E24FB009C8C9A /* AddViewController.swift */; };
+		BE5A0968268A847800062F62 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = BE5A0967268A847800062F62 /* Jenkinsfile */; };
+		BE5A096D268A84A400062F62 /* InventoryUITestsCS3260.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5A096C268A84A400062F62 /* InventoryUITestsCS3260.swift */; };
 		BEEC973C268A617B00FD4D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC973B268A617B00FD4D0C /* AppDelegate.swift */; };
 		BEEC973E268A617B00FD4D0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC973D268A617B00FD4D0C /* SceneDelegate.swift */; };
 		BEEC9740268A617B00FD4D0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC973F268A617B00FD4D0C /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE319082268E237C009C8C9A /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		BE319087268E24FB009C8C9A /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		BE5A0967268A847800062F62 /* Jenkinsfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
+		BE5A096C268A84A400062F62 /* InventoryUITestsCS3260.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryUITestsCS3260.swift; sourceTree = "<group>"; };
 		BEEC9738268A617B00FD4D0C /* Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEC973B268A617B00FD4D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEEC973D268A617B00FD4D0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +87,7 @@
 		BEEC972F268A617B00FD4D0C = {
 			isa = PBXGroup;
 			children = (
+				BE5A0967268A847800062F62 /* Jenkinsfile */,
 				BEEC973A268A617B00FD4D0C /* Inventory */,
 				BEEC9751268A617C00FD4D0C /* InventoryTests */,
 				BEEC975C268A617C00FD4D0C /* InventoryUITests */,
@@ -103,6 +112,8 @@
 				BEEC973D268A617B00FD4D0C /* SceneDelegate.swift */,
 				BEEC973F268A617B00FD4D0C /* ViewController.swift */,
 				BEEC9741268A617B00FD4D0C /* Main.storyboard */,
+				BE319087268E24FB009C8C9A /* AddViewController.swift */,
+				BE319082268E237C009C8C9A /* EditViewController.swift */,
 				BEEC9744268A617C00FD4D0C /* Assets.xcassets */,
 				BEEC9746268A617C00FD4D0C /* LaunchScreen.storyboard */,
 				BEEC9749268A617C00FD4D0C /* Info.plist */,
@@ -123,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				BEEC975D268A617C00FD4D0C /* InventoryUITests.swift */,
+				BE5A096C268A84A400062F62 /* InventoryUITestsCS3260.swift */,
 				BEEC975F268A617C00FD4D0C /* Info.plist */,
 			);
 			path = InventoryUITests;
@@ -232,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEEC9748268A617C00FD4D0C /* LaunchScreen.storyboard in Resources */,
+				BE5A0968268A847800062F62 /* Jenkinsfile in Resources */,
 				BEEC9745268A617C00FD4D0C /* Assets.xcassets in Resources */,
 				BEEC9743268A617B00FD4D0C /* Main.storyboard in Resources */,
 			);
@@ -258,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE319088268E24FB009C8C9A /* AddViewController.swift in Sources */,
+				BE319083268E237C009C8C9A /* EditViewController.swift in Sources */,
 				BEEC9740268A617B00FD4D0C /* ViewController.swift in Sources */,
 				BEEC973C268A617B00FD4D0C /* AppDelegate.swift in Sources */,
 				BEEC973E268A617B00FD4D0C /* SceneDelegate.swift in Sources */,
@@ -277,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEEC975E268A617C00FD4D0C /* InventoryUITests.swift in Sources */,
+				BE5A096D268A84A400062F62 /* InventoryUITestsCS3260.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
