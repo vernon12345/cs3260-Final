@@ -3,22 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE0DAB1B26C5FF7F005AA234 /* PaymentMethodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0DAB1A26C5FF7F005AA234 /* PaymentMethodList.swift */; };
 		BE319083268E237C009C8C9A /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE319082268E237C009C8C9A /* EditViewController.swift */; };
 		BE319088268E24FB009C8C9A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE319087268E24FB009C8C9A /* AddViewController.swift */; };
-		BE9A87AB2697933A00570581 /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = BE9A87AA2697933A00570581 /* Jenkinsfile */; };
-		BE9A87BB269793EA00570581 /* Inventory2UITestsCS3260.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A87BA269793EA00570581 /* Inventory2UITestsCS3260.swift */; };
+		BEA3AC2C26A383CB00C5C640 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3AC2B26A383CB00C5C640 /* HomeController.swift */; };
+		BEA3AC7626A388EC00C5C640 /* PlansController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3AC7526A388EC00C5C640 /* PlansController.swift */; };
+		BEEA6E9326C2E131001451E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6E9226C2E131001451E8 /* ContentView.swift */; };
+		BEEA6E9D26C2E2BE001451E8 /* PaymentMethodRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6E9C26C2E2BE001451E8 /* PaymentMethodRow.swift */; };
+		BEEA6EA226C2E31E001451E8 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6EA126C2E31E001451E8 /* PaymentButton.swift */; };
+		BEEA6EAC26C2E3A2001451E8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6EAB26C2E3A2001451E8 /* Card.swift */; };
+		BEEA6EBB26C2E45C001451E8 /* AcceptAPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6EBA26C2E45C001451E8 /* AcceptAPayment.swift */; };
+		BEEA6EC026C2E4B8001451E8 /* PaymentMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6EBF26C2E4B8001451E8 /* PaymentMethods.swift */; };
+		BEEA6EC526C2E4F7001451E8 /*  ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6EC426C2E4F7001451E8 /*  ModelData.swift */; };
+		BEEA6ECA26C2E52C001451E8 /* BackendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6EC926C2E52C001451E8 /* BackendModel.swift */; };
+		BEEA6ECF26C2E586001451E8 /* ApplePayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6ECE26C2E586001451E8 /* ApplePayModel.swift */; };
+		BEEA6F3926C30584001451E8 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6F3826C30584001451E8 /* test.swift */; };
+		BEEA6F8D26C35221001451E8 /* paymentMethods.json in Resources */ = {isa = PBXBuildFile; fileRef = BEEA6F8C26C35221001451E8 /* paymentMethods.json */; };
 		BEEC973C268A617B00FD4D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC973B268A617B00FD4D0C /* AppDelegate.swift */; };
 		BEEC973E268A617B00FD4D0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC973D268A617B00FD4D0C /* SceneDelegate.swift */; };
 		BEEC9740268A617B00FD4D0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC973F268A617B00FD4D0C /* ViewController.swift */; };
 		BEEC9743268A617B00FD4D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEC9741268A617B00FD4D0C /* Main.storyboard */; };
 		BEEC9745268A617C00FD4D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEC9744268A617C00FD4D0C /* Assets.xcassets */; };
-		BEEC9748268A617C00FD4D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEC9746268A617C00FD4D0C /* LaunchScreen.storyboard */; };
 		BEEC9753268A617C00FD4D0C /* InventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC9752268A617C00FD4D0C /* InventoryTests.swift */; };
 		BEEC975E268A617C00FD4D0C /* InventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC975D268A617C00FD4D0C /* InventoryUITests.swift */; };
+		C3925BDE5BF6BE4EDD92C9B0 /* Pods_Inventory_InventoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CD49784FD4C3C2ACB13958 /* Pods_Inventory_InventoryUITests.framework */; };
+		E0B980462993E54B049BB566 /* Pods_Inventory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29931D89327B6B13CB4CE9CD /* Pods_Inventory.framework */; };
+		F65B610590255C21054FEB44 /* Pods_InventoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D201316AD59858A1E003D361 /* Pods_InventoryTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,17 +53,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		097CCF8012B8C4AF202DA33F /* Pods-Inventory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory.debug.xcconfig"; path = "Target Support Files/Pods-Inventory/Pods-Inventory.debug.xcconfig"; sourceTree = "<group>"; };
+		29931D89327B6B13CB4CE9CD /* Pods_Inventory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inventory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		319F7A0A9B213EEE19D5B037 /* Pods-InventoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventoryTests.release.xcconfig"; path = "Target Support Files/Pods-InventoryTests/Pods-InventoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E61F7B04688E83202DDDBDC /* Pods-Inventory-InventoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory-InventoryUITests.release.xcconfig"; path = "Target Support Files/Pods-Inventory-InventoryUITests/Pods-Inventory-InventoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E61436727194D456EF7ED34 /* Pods-InventoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventoryTests.debug.xcconfig"; path = "Target Support Files/Pods-InventoryTests/Pods-InventoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE0DAB1A26C5FF7F005AA234 /* PaymentMethodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodList.swift; sourceTree = "<group>"; };
 		BE319082268E237C009C8C9A /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		BE319087268E24FB009C8C9A /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		BE9A87AA2697933A00570581 /* Jenkinsfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
-		BE9A87BA269793EA00570581 /* Inventory2UITestsCS3260.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inventory2UITestsCS3260.swift; sourceTree = "<group>"; };
+		BEA3AC2B26A383CB00C5C640 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		BEA3AC7526A388EC00C5C640 /* PlansController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansController.swift; sourceTree = "<group>"; };
+		BEEA6E9226C2E131001451E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEEA6E9C26C2E2BE001451E8 /* PaymentMethodRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodRow.swift; sourceTree = "<group>"; };
+		BEEA6EA126C2E31E001451E8 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		BEEA6EAB26C2E3A2001451E8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		BEEA6EBA26C2E45C001451E8 /* AcceptAPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptAPayment.swift; sourceTree = "<group>"; };
+		BEEA6EBF26C2E4B8001451E8 /* PaymentMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethods.swift; sourceTree = "<group>"; };
+		BEEA6EC426C2E4F7001451E8 /*  ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ModelData.swift"; sourceTree = "<group>"; };
+		BEEA6EC926C2E52C001451E8 /* BackendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendModel.swift; sourceTree = "<group>"; };
+		BEEA6ECE26C2E586001451E8 /* ApplePayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayModel.swift; sourceTree = "<group>"; };
+		BEEA6F3826C30584001451E8 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		BEEA6F8C26C35221001451E8 /* paymentMethods.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = paymentMethods.json; sourceTree = "<group>"; };
 		BEEC9738268A617B00FD4D0C /* Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEC973B268A617B00FD4D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEEC973D268A617B00FD4D0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BEEC973F268A617B00FD4D0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEEC9742268A617B00FD4D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEEC9744268A617C00FD4D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BEEC9747268A617C00FD4D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEEC9749268A617C00FD4D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEEC974E268A617C00FD4D0C /* InventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEC9752268A617C00FD4D0C /* InventoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTests.swift; sourceTree = "<group>"; };
@@ -57,6 +87,10 @@
 		BEEC9759268A617C00FD4D0C /* InventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InventoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEC975D268A617C00FD4D0C /* InventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryUITests.swift; sourceTree = "<group>"; };
 		BEEC975F268A617C00FD4D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2D5D231B33CCEC0F7D1051A /* Pods-Inventory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory.release.xcconfig"; path = "Target Support Files/Pods-Inventory/Pods-Inventory.release.xcconfig"; sourceTree = "<group>"; };
+		D201316AD59858A1E003D361 /* Pods_InventoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InventoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CD49784FD4C3C2ACB13958 /* Pods_Inventory_InventoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inventory_InventoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C8BA908E1F7F84B5F10198 /* Pods-Inventory-InventoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory-InventoryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Inventory-InventoryUITests/Pods-Inventory-InventoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B980462993E54B049BB566 /* Pods_Inventory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F65B610590255C21054FEB44 /* Pods_InventoryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,20 +114,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3925BDE5BF6BE4EDD92C9B0 /* Pods_Inventory_InventoryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80B0DB1059AB76C8BA033CA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				097CCF8012B8C4AF202DA33F /* Pods-Inventory.debug.xcconfig */,
+				C2D5D231B33CCEC0F7D1051A /* Pods-Inventory.release.xcconfig */,
+				F4C8BA908E1F7F84B5F10198 /* Pods-Inventory-InventoryUITests.debug.xcconfig */,
+				4E61F7B04688E83202DDDBDC /* Pods-Inventory-InventoryUITests.release.xcconfig */,
+				8E61436727194D456EF7ED34 /* Pods-InventoryTests.debug.xcconfig */,
+				319F7A0A9B213EEE19D5B037 /* Pods-InventoryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A512A995AC4A1E05F6EA2E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29931D89327B6B13CB4CE9CD /* Pods_Inventory.framework */,
+				E6CD49784FD4C3C2ACB13958 /* Pods_Inventory_InventoryUITests.framework */,
+				D201316AD59858A1E003D361 /* Pods_InventoryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BEEC972F268A617B00FD4D0C = {
 			isa = PBXGroup;
 			children = (
-				BE9A87AA2697933A00570581 /* Jenkinsfile */,
 				BEEC973A268A617B00FD4D0C /* Inventory */,
 				BEEC9751268A617C00FD4D0C /* InventoryTests */,
 				BEEC975C268A617C00FD4D0C /* InventoryUITests */,
 				BEEC9739268A617B00FD4D0C /* Products */,
+				80B0DB1059AB76C8BA033CA1 /* Pods */,
+				8A512A995AC4A1E05F6EA2E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,14 +170,27 @@
 			isa = PBXGroup;
 			children = (
 				BEEC973B268A617B00FD4D0C /* AppDelegate.swift */,
+				BEEA6E9226C2E131001451E8 /* ContentView.swift */,
+				BEEA6E9C26C2E2BE001451E8 /* PaymentMethodRow.swift */,
+				BEEA6EA126C2E31E001451E8 /* PaymentButton.swift */,
+				BEEA6EAB26C2E3A2001451E8 /* Card.swift */,
+				BEEA6EBA26C2E45C001451E8 /* AcceptAPayment.swift */,
+				BEEA6EBF26C2E4B8001451E8 /* PaymentMethods.swift */,
+				BEEA6EC426C2E4F7001451E8 /*  ModelData.swift */,
+				BEEA6EC926C2E52C001451E8 /* BackendModel.swift */,
+				BEEA6ECE26C2E586001451E8 /* ApplePayModel.swift */,
 				BEEC973D268A617B00FD4D0C /* SceneDelegate.swift */,
 				BEEC973F268A617B00FD4D0C /* ViewController.swift */,
 				BEEC9741268A617B00FD4D0C /* Main.storyboard */,
+				BEEA6F8C26C35221001451E8 /* paymentMethods.json */,
+				BEEA6F3826C30584001451E8 /* test.swift */,
+				BEA3AC7526A388EC00C5C640 /* PlansController.swift */,
+				BEA3AC2B26A383CB00C5C640 /* HomeController.swift */,
 				BE319087268E24FB009C8C9A /* AddViewController.swift */,
 				BE319082268E237C009C8C9A /* EditViewController.swift */,
 				BEEC9744268A617C00FD4D0C /* Assets.xcassets */,
-				BEEC9746268A617C00FD4D0C /* LaunchScreen.storyboard */,
 				BEEC9749268A617C00FD4D0C /* Info.plist */,
+				BE0DAB1A26C5FF7F005AA234 /* PaymentMethodList.swift */,
 			);
 			path = Inventory;
 			sourceTree = "<group>";
@@ -134,7 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				BEEC975D268A617C00FD4D0C /* InventoryUITests.swift */,
-				BE9A87BA269793EA00570581 /* Inventory2UITestsCS3260.swift */,
 				BEEC975F268A617C00FD4D0C /* Info.plist */,
 			);
 			path = InventoryUITests;
@@ -147,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEEC9762268A617C00FD4D0C /* Build configuration list for PBXNativeTarget "Inventory" */;
 			buildPhases = (
+				028454B52A681E538925547B /* [CP] Check Pods Manifest.lock */,
 				BEEC9734268A617B00FD4D0C /* Sources */,
 				BEEC9735268A617B00FD4D0C /* Frameworks */,
 				BEEC9736268A617B00FD4D0C /* Resources */,
+				8A8AADAC8E63CE880AADFBAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEEC9765268A617C00FD4D0C /* Build configuration list for PBXNativeTarget "InventoryTests" */;
 			buildPhases = (
+				F692F8C8813FEC8F512F3FD1 /* [CP] Check Pods Manifest.lock */,
 				BEEC974A268A617C00FD4D0C /* Sources */,
 				BEEC974B268A617C00FD4D0C /* Frameworks */,
 				BEEC974C268A617C00FD4D0C /* Resources */,
@@ -182,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEEC9768268A617C00FD4D0C /* Build configuration list for PBXNativeTarget "InventoryUITests" */;
 			buildPhases = (
+				62032C58CCEA4B3ACEAC6FC7 /* [CP] Check Pods Manifest.lock */,
 				BEEC9755268A617C00FD4D0C /* Sources */,
 				BEEC9756268A617C00FD4D0C /* Frameworks */,
 				BEEC9757268A617C00FD4D0C /* Resources */,
+				9A5A79C03C3F4973E3817AB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,10 +321,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEEC9748268A617C00FD4D0C /* LaunchScreen.storyboard in Resources */,
-				BE9A87AB2697933A00570581 /* Jenkinsfile in Resources */,
 				BEEC9745268A617C00FD4D0C /* Assets.xcassets in Resources */,
 				BEEC9743268A617B00FD4D0C /* Main.storyboard in Resources */,
+				BEEA6F8D26C35221001451E8 /* paymentMethods.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,16 +343,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		028454B52A681E538925547B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inventory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62032C58CCEA4B3ACEAC6FC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inventory-InventoryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8AADAC8E63CE880AADFBAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Inventory/Pods-Inventory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Inventory/Pods-Inventory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inventory/Pods-Inventory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A5A79C03C3F4973E3817AB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Inventory-InventoryUITests/Pods-Inventory-InventoryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Inventory-InventoryUITests/Pods-Inventory-InventoryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inventory-InventoryUITests/Pods-Inventory-InventoryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F692F8C8813FEC8F512F3FD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InventoryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEEC9734268A617B00FD4D0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEEA6E9D26C2E2BE001451E8 /* PaymentMethodRow.swift in Sources */,
 				BE319088268E24FB009C8C9A /* AddViewController.swift in Sources */,
+				BEEA6EA226C2E31E001451E8 /* PaymentButton.swift in Sources */,
+				BEEA6ECF26C2E586001451E8 /* ApplePayModel.swift in Sources */,
+				BEEA6EC026C2E4B8001451E8 /* PaymentMethods.swift in Sources */,
+				BEEA6EAC26C2E3A2001451E8 /* Card.swift in Sources */,
 				BE319083268E237C009C8C9A /* EditViewController.swift in Sources */,
+				BEEA6E9326C2E131001451E8 /* ContentView.swift in Sources */,
+				BEA3AC2C26A383CB00C5C640 /* HomeController.swift in Sources */,
+				BEEA6F3926C30584001451E8 /* test.swift in Sources */,
 				BEEC9740268A617B00FD4D0C /* ViewController.swift in Sources */,
+				BE0DAB1B26C5FF7F005AA234 /* PaymentMethodList.swift in Sources */,
 				BEEC973C268A617B00FD4D0C /* AppDelegate.swift in Sources */,
 				BEEC973E268A617B00FD4D0C /* SceneDelegate.swift in Sources */,
+				BEEA6EBB26C2E45C001451E8 /* AcceptAPayment.swift in Sources */,
+				BEEA6EC526C2E4F7001451E8 /*  ModelData.swift in Sources */,
+				BEA3AC7626A388EC00C5C640 /* PlansController.swift in Sources */,
+				BEEA6ECA26C2E52C001451E8 /* BackendModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +484,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE9A87BB269793EA00570581 /* Inventory2UITestsCS3260.swift in Sources */,
 				BEEC975E268A617C00FD4D0C /* InventoryUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,14 +510,6 @@
 				BEEC9742268A617B00FD4D0C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BEEC9746268A617C00FD4D0C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEEC9747268A617C00FD4D0C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -449,6 +633,7 @@
 		};
 		BEEC9763268A617C00FD4D0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097CCF8012B8C4AF202DA33F /* Pods-Inventory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +652,7 @@
 		};
 		BEEC9764268A617C00FD4D0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D5D231B33CCEC0F7D1051A /* Pods-Inventory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -485,6 +671,7 @@
 		};
 		BEEC9766268A617C00FD4D0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E61436727194D456EF7ED34 /* Pods-InventoryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +693,7 @@
 		};
 		BEEC9767268A617C00FD4D0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319F7A0A9B213EEE19D5B037 /* Pods-InventoryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +715,7 @@
 		};
 		BEEC9769268A617C00FD4D0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C8BA908E1F7F84B5F10198 /* Pods-Inventory-InventoryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +735,7 @@
 		};
 		BEEC976A268A617C00FD4D0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E61F7B04688E83202DDDBDC /* Pods-Inventory-InventoryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

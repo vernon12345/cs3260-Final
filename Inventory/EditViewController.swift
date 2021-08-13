@@ -22,7 +22,7 @@ class EditViewController: UIViewController {
         super.viewDidLoad()
         let save = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(saveItem))
         self.navigationItem.rightBarButtonItem = save
-        self.navigationItem.title = "Edit Item"
+        self.navigationItem.title = "Edit Subscription"
         editShortDescription.text = eShortDescription
         editLongDescription.text = eLongDescription
     }

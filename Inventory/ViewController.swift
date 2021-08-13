@@ -12,6 +12,7 @@ import SQLite3
 struct Item {
     var sDescription: String = ""
     var lDescription: String = ""
+    var pick:String = ""
 }
 
 var items: [Item] = []
@@ -22,10 +23,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = items[indexPath.row].sDescription
         cell.detailTextLabel?.text = items[indexPath.row].lDescription
+        cell.textLabel?.text = items[indexPath.row].sDescription
         return cell
+        
     }
+    
+        
+    
+    
+    
     @IBOutlet weak var tableView: UITableView!
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
           tableView.deselectRow(at: indexPath, animated: true)
@@ -66,7 +73,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Inventory"
+        self.navigationItem.title = "Sign Up"
         let notificationCenter = NotificationCenter.default
         notificationCenter.addObserver(self, selector: #selector(saveToDatabase(_:)), name: UIApplication.willResignActiveNotification, object: nil)
         let fileUrl = try!
@@ -75,7 +82,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             print("Error opening database")
             return
         }
-        let createTable = "CREATE TABLE IF NOT EXISTS Items (id INTEGER PRIMARY KEY AUTOINCREMENT, shortDescription VARCHAR, longDescription VARCHAR)"
+        let createTable = "CREATE TABLE IF NOT EXISTS Items (id INTEGER PRIMARY KEY AUTOINCREMENT, shortDescription VARCHAR, longDescription VARCHAR, pick VARCHAR"
         
         if sqlite3_exec(db, createTable, nil, nil, nil) != SQLITE_OK{
             print("Error creating table")
@@ -90,7 +97,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         while(sqlite3_step(stmt) == SQLITE_ROW){
             let short = String(cString: sqlite3_column_text(stmt, 1))
             let long = String(cString: sqlite3_column_text(stmt, 2))
-            items.append(Item.init(sDescription: short, lDescription: long))
+            let picker = String(cString: sqlite3_column_text(stmt, 3))
+            items.append(Item.init(sDescription: short, lDescription: long, pick: picker))
         }
        
     }
@@ -99,19 +107,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @objc func saveToDatabase(_ notification:Notification){
 
         let deleteStatementStirng = "DELETE * FROM Items;"
+              
+        var deleteStatement: OpaquePointer? = nil
+        if sqlite3_prepare_v2(db, deleteStatementStirng, -1, &deleteStatement, nil) == SQLITE_OK {
 
-            var deleteStatement: OpaquePointer? = nil
-            if sqlite3_prepare_v2(db, deleteStatementStirng, -1, &deleteStatement, nil) == SQLITE_OK {
-
-                if sqlite3_step(deleteStatement) == SQLITE_DONE {
-                    print("Successfully deleted row.")
-                } else {
-                    print("Could not delete row.")
-                }
+            if sqlite3_step(deleteStatement) == SQLITE_DONE {
+                print("Successfully deleted row.")
             } else {
-                print("DELETE statement could not be prepared")
+                print("Could not delete row.")
             }
-
+        } else {
+            print("DELETE statement could not be prepared")
+        }
             sqlite3_finalize(deleteStatement)
 
             print("delete")
@@ -122,8 +129,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         for item in items{
             let shortDescription = item.sDescription
             let longDescription = item.lDescription
+            let picker = item.pick
             var stmt: OpaquePointer?
-            let dbSave = "INSERT INTO Items (shortDescription, longDescription) Values (?,?)"
+            let dbSave = "INSERT INTO Items (shortDescription, longDescription,picker) Values (?,?,?)"
             if sqlite3_prepare(db, dbSave, -1, &stmt, nil) != SQLITE_OK{
                 print("binding error :dbSave")
             }
@@ -133,7 +141,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             if sqlite3_bind_text(stmt, 2, (longDescription as NSString).utf8String, -1, nil) != SQLITE_OK {
                            print("binding error :longDescription")
                        }
-    
+            if sqlite3_bind_text(stmt, 3, (picker as NSString).utf8String, -1, nil) != SQLITE_OK {
+                           print("binding error :picker")
+                       }
             sqlite3_step(stmt)
         }
             
