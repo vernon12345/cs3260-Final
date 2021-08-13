@@ -12,7 +12,7 @@ protocol Insert{
 }
 
 class AddViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
-    let data = ["Add On:Enzyme Boost","Add On:Scent Booster","Add On:Sensative"]
+    let data = ["Add On:Enzyme Boost","Add On:Scent Booster","Add On:Sensitive"]
     var pickerSelect:String = "Add On:Enzyme Boost"
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
        return 1
