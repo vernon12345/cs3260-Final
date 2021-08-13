@@ -21,7 +21,7 @@
 		BEEA6EC526C2E4F7001451E8 /*  ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6EC426C2E4F7001451E8 /*  ModelData.swift */; };
 		BEEA6ECA26C2E52C001451E8 /* BackendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6EC926C2E52C001451E8 /* BackendModel.swift */; };
 		BEEA6ECF26C2E586001451E8 /* ApplePayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6ECE26C2E586001451E8 /* ApplePayModel.swift */; };
-		BEEA6F3926C30584001451E8 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6F3826C30584001451E8 /* test.swift */; };
+		BEEA6F3926C30584001451E8 /* pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6F3826C30584001451E8 /* pay.swift */; };
 		BEEA6F8D26C35221001451E8 /* paymentMethods.json in Resources */ = {isa = PBXBuildFile; fileRef = BEEA6F8C26C35221001451E8 /* paymentMethods.json */; };
 		BEEC973C268A617B00FD4D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC973B268A617B00FD4D0C /* AppDelegate.swift */; };
 		BEEC973E268A617B00FD4D0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC973D268A617B00FD4D0C /* SceneDelegate.swift */; };
@@ -72,7 +72,7 @@
 		BEEA6EC426C2E4F7001451E8 /*  ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ModelData.swift"; sourceTree = "<group>"; };
 		BEEA6EC926C2E52C001451E8 /* BackendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendModel.swift; sourceTree = "<group>"; };
 		BEEA6ECE26C2E586001451E8 /* ApplePayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePayModel.swift; sourceTree = "<group>"; };
-		BEEA6F3826C30584001451E8 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		BEEA6F3826C30584001451E8 /* pay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pay.swift; sourceTree = "<group>"; };
 		BEEA6F8C26C35221001451E8 /* paymentMethods.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = paymentMethods.json; sourceTree = "<group>"; };
 		BEEC9738268A617B00FD4D0C /* Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEC973B268A617B00FD4D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 				BEEC973F268A617B00FD4D0C /* ViewController.swift */,
 				BEEC9741268A617B00FD4D0C /* Main.storyboard */,
 				BEEA6F8C26C35221001451E8 /* paymentMethods.json */,
-				BEEA6F3826C30584001451E8 /* test.swift */,
+				BEEA6F3826C30584001451E8 /* pay.swift */,
 				BEA3AC7526A388EC00C5C640 /* PlansController.swift */,
 				BEA3AC2B26A383CB00C5C640 /* HomeController.swift */,
 				BE319087268E24FB009C8C9A /* AddViewController.swift */,
@@ -460,7 +460,7 @@
 				BE319083268E237C009C8C9A /* EditViewController.swift in Sources */,
 				BEEA6E9326C2E131001451E8 /* ContentView.swift in Sources */,
 				BEA3AC2C26A383CB00C5C640 /* HomeController.swift in Sources */,
-				BEEA6F3926C30584001451E8 /* test.swift in Sources */,
+				BEEA6F3926C30584001451E8 /* pay.swift in Sources */,
 				BEEC9740268A617B00FD4D0C /* ViewController.swift in Sources */,
 				BE0DAB1B26C5FF7F005AA234 /* PaymentMethodList.swift in Sources */,
 				BEEC973C268A617B00FD4D0C /* AppDelegate.swift in Sources */,
