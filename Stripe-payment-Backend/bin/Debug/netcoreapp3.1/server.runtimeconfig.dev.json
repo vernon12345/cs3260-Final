@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\verno\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\verno\\.nuget\\packages"
+    ]
+  }
+}
